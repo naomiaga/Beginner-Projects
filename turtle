@@ -1,0 +1,30 @@
+# Cool drawings with turtle
+
+#Import
+import turtle
+
+# Start nice set up
+
+turtle.bgcolor("black") #Background color
+turtle.pensize(2) #Pen size
+turtle.color("pink")
+
+# Drawing a square
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(50)
+# turtle.left(90)
+# turtle.done() # Let turtle stay on screen
+
+
+# Simple turtle project
+for colors in ["red", "orange", "yellow", "green", "blue", "purple", "pink"]:
+    turtle.color(colors)
+    turtle.circle(150)
+    turtle.left (60)
+turtle.done
+
